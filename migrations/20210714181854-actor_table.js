@@ -6,9 +6,8 @@ module.exports = {
       'actors',
       {
         id: {
-          type: Sequelize.INTEGER,
-          primaryKey: true,
-          autoIncrement: true
+          type: Sequelize.UUID,
+          primaryKey: true
         },
         fullname: Sequelize.STRING,
         createdAt: {

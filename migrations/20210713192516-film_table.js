@@ -6,9 +6,8 @@ module.exports = {
       'films',
       {
         id: {
-          type: Sequelize.INTEGER,
-          primaryKey: true,
-          autoIncrement: true
+          type: Sequelize.UUID,
+          primaryKey: true
         },
         name: Sequelize.STRING,
         createdAt: {
