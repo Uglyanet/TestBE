@@ -9,7 +9,8 @@ module.exports = {
           type: Sequelize.UUID,
           primaryKey: true
         },
-        name: Sequelize.STRING,
+        title: Sequelize.STRING,
+        releaseYear: Sequelize.INTEGER,
         createdAt: {
           type: Sequelize.DATE
         },
